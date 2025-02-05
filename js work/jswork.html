@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tüm İşlevler</title>
+
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <fieldset>
+    <h1>Tüm İşlevler</h1>
+
+    <section>
+        <h2>Kare Alan ve Çevre Hesaplama</h2>
+        <input type="number" id="square-side" placeholder="Kenar Uzunluğu">
+        <button onclick="calculateSquare()">Hesapla</button>
+        <p id="square-area">Alan: -</p>
+        <p id="square-perimeter">Çevre: -</p>
+    </section>
+
+    <section>
+        <h2>JavaScript Sayaç</h2>
+        <div id="counter">0</div>
+        <button onclick="increment()">Artır</button>
+        <button onclick="decrement()">Azalt</button>
+        <button onclick="reset()">Sıfırla</button>
+    </section>
+
+    <section>
+        <h2>Tek mi Çift mi Kontrolü</h2>
+        <input type="number" id="odd-even-number" placeholder="Bir sayı girin">
+        <button onclick="checkOddEven()">Kontrol Et</button>
+        <p id="odd-even-result">Sonuç: -</p>
+    </section>
+
+    <section>
+        <h2>Basit Hesap Makinesi</h2>
+        <input type="number" id="calc-number1" placeholder="Sayı 1">
+        <input type="number" id="calc-number2" placeholder="Sayı 2">
+        <button onclick="calculateSum()">Topla</button>
+        <p id="calc-result" class="result">Sonuç: -</p>
+    </section>
+
+<script src="script.js"></script>
+    </fieldset>
+</body>
+</html>
